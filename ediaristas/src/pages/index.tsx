@@ -1,8 +1,11 @@
 import type { NextPage } from 'next'
+import SafeEnvironment from 'ui/components/feedback/SafeEnvironment/SafeEnvironment'
 
 const Home: NextPage = () => {
   return (
-    <div ></div>
+    <div>
+      <SafeEnvironment />
+    </div>
   )
 }
 
